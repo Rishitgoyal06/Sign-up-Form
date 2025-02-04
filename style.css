@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.maincontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px; /* Space between heading and form */
+}
+
+.heading {
+  color: white;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.signupform {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: white;
+}
+
+.inputfield input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 300;
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  color: white;
+  outline: none;
+}
+
+.inputfield input::placeholder {
+  color: #ddd;
+}
+
+.radioContainer {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.radioContainer label {
+  font-size: 16px;
+}
+
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.checkboxContainer label {
+  font-size: 16px;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitBtn:hover {
+  background-color: #ccc;
+}
